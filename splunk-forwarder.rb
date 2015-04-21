@@ -3,8 +3,8 @@ require 'shellwords'
 
 class SplunkForwarder < Formula
   homepage 'http://www.splunk.com'
-  url 'http://www.splunk.com/page/download_track?file=4.3.4/universalforwarder/osx/splunkforwarder-4.3.4-136012-Darwin-universal.tgz&ac=&wget=true&name=wget&typed=releases'
-  sha1 '7a6074edf8f67f442b9a2e853ba2912a1283731a'
+  url 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86&platform=Macos&version=6.2.2&product=splunk_light&filename=splunklight-6.2.2-255606-macosx-10.7-intel.dmg&wget=true'
+  # sha1 '7a6074edf8f67f442b9a2e853ba2912a1283731a'
   keg_only 'Splunk forwarder includes an invasive number of binaries and support files.'
 
   def caveats
